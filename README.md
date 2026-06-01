@@ -176,7 +176,7 @@ Function that writes a whole string in a specific file descriptor but ads a new 
 
 Function that writes an integer to a specific file descriptor. Doesn't give a return as it has void as return. User chooses where to write the integer by selecting file descriptor 0,1,2 3 or others.
 
-<h4>Memmory functions:</h4>
+<h4>Memory functions:</h4>
 
 <h5>ft_bzero:</h5>
 <pre><code>void	ft_bzero(void *s, size_t n);</code></pre>
@@ -217,7 +217,7 @@ This allows us to grow or shrink with no need for reallocation.
 <h5>ft_lstnew:</h5>
 <pre><code>t_list	*ft_lstnew(void *content);</code></pre>
 
-The first step of a linked list, creates a new node, allocating memmory for it ans storing data. 
+The first step of a linked list, creates a new node, allocating memory for it ans storing data. 
 
 <h5>ft_lstadd_front:</h5>
 <pre><code>void	ft_lstadd_front(t_list **lst, t_list *new);</code></pre>
